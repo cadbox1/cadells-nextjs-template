@@ -18,7 +18,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["@cloudflare/workers-types"]
   },
   "include": [
     "next-env.d.ts",
@@ -26,7 +25,6 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "durable_objects",
     "node_modules"
   ]
 }
