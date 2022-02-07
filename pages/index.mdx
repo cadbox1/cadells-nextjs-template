@@ -1,4 +1,5 @@
 import { Head } from "../components/Head"
+import { GitHub } from "../components/GitHub"
 import { App } from "../components/App"
 
 <Head />
@@ -6,6 +7,8 @@ import { App } from "../components/App"
 # Cadell's NextJS Template
 
 Powered by NextJS, MDX, vanilla-extract and cadells-vanilla-components.
+
+<GitHub />
 
 <App />
 
@@ -31,10 +34,19 @@ I think I'll deploy it to Netlify too.
 
 ### Challenges
 
+- I didn't realise Netlify now uses a NextJS plugin so there's no need to update the build command and output directory.
+
 ### Notes
+
+Netlify has a NextJS plugin now so you should keep the default build command and publish directory:
+
+- Build command: yarn build
+- Publish directory: .next
+
+This project took about 1 hour.
 
 ### Milestones
 
-- NextJS app
-- Project headings
-- Deployment
+- done - NextJS app
+- done - Project headings
+- done - Deployment
