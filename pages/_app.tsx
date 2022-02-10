@@ -1,7 +1,7 @@
 import {
 	Container,
 	MdxProvider,
-	ThemeToggle,
+	Header,
 } from "cadells-vanilla-components";
 import "cadells-vanilla-components/dist/index.css";
 import "@fontsource/source-sans-pro/400.css";
@@ -10,7 +10,7 @@ import "@fontsource/source-sans-pro/600.css";
 const App = ({ Component, pageProps }) => (
 	<MdxProvider>
 		<Container>
-			<ThemeToggle />
+			<Header githubHref="https://github.com/cadbox1/cadells-nextjs-template"/>
 			<Component {...pageProps} />
 		</Container>
 	</MdxProvider>
